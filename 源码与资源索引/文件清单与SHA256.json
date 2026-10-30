@@ -1,0 +1,2206 @@
+{
+  "checked_at": "2026-10-31T00:15:17.412576+08:00",
+  "original_commit": "764d3ae0019db30905abba239f7e88a7ae386cba",
+  "original_remote": "https://github.com/K0nd1us/QQ-agent.git",
+  "original_scope": "Complete tracked 0.4 directory plus root README and LICENSE. Not full Git history; 0.5 not downloaded.",
+  "local_scope": "Local source, 18 skills, 6 plugins, 3 persona cards; 2 runtime scripts.",
+  "excluded": [
+    "node_modules",
+    "data",
+    ".git",
+    "core",
+    "project .env",
+    "project compose.yaml",
+    "QQ login state",
+    "API configuration",
+    "chat history"
+  ],
+  "packages": [
+    {
+      "file": "QQ-Agent-0.4-原始源码-764d3ae.zip",
+      "size": 2035267,
+      "sha256": "cb96f88d311291acf42c524c6cd9fcd2a5c4a9af4091bfe395e514c9900bd604",
+      "file_count": 143,
+      "files": [
+        {
+          "path": "QQ-agent-original/0.4/.gitignore",
+          "size": 841,
+          "sha256": "794ce3da916468125f41dd5e13a3515dc18dc334d14b5359101fe653664fbe7b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/.zcodeignore",
+          "size": 1583,
+          "sha256": "371563ba446e5ddc4e82ff06d0a860ed3f329f6644625fd50dada100fad4f6a2"
+        },
+        {
+          "path": "QQ-agent-original/0.4/LICENSE",
+          "size": 1064,
+          "sha256": "1d428d5bef9c276253ea40aa2d2b7b75b4b6c0de19d1fa71b0d0452cfc255ffb"
+        },
+        {
+          "path": "QQ-agent-original/0.4/README.md",
+          "size": 13659,
+          "sha256": "ce322a105ae0e486c89b8cca03cdf280c16c96a16ea084c47d0ae30226d849d7"
+        },
+        {
+          "path": "QQ-agent-original/0.4/assets/icon.ico",
+          "size": 110838,
+          "sha256": "83c75dbabc742973b910ae69d0d3d2c6903d3c0d878918050e8cff639948e34f"
+        },
+        {
+          "path": "QQ-agent-original/0.4/assets/icon.png",
+          "size": 280346,
+          "sha256": "b0a2cb7a2a6d83a71c982a51196bfb3418062b9101605242196671d006367ce0"
+        },
+        {
+          "path": "QQ-agent-original/0.4/build/installer.nsh",
+          "size": 10844,
+          "sha256": "e240194a52758522b07940c8c2482248bc8670a148590b0a3974904275763e9e"
+        },
+        {
+          "path": "QQ-agent-original/0.4/community.key.example",
+          "size": 141,
+          "sha256": "70e2c297eda81438db104f8b434868fb438be43c20298092fe8def96206cfb89"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/multi-instance.md",
+          "size": 2543,
+          "sha256": "bb3875a31df6d7d464821b989994af90b07ae45fc4b8fe38665adf9291c37a6c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/plugin-development.md",
+          "size": 28760,
+          "sha256": "b746738fe9fc54a19718a104268485d6f48669a57192ff5e988ea0bee81f27c9"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/prompt-pipeline.md",
+          "size": 9920,
+          "sha256": "0e41827253a6d46ad8412c57f682d7fa1d2c0b6b87d1a1b0d82c8976f005306f"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/skill-development.md",
+          "size": 25874,
+          "sha256": "5136a399cb26f98495dbfb4b9a4daca21f3cc403428d1d32880f86fb4e0c1785"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/skill-guide-for-beginners.md",
+          "size": 36378,
+          "sha256": "3cd11610225a7ee032a9ab933b57378e0860049e97e1addcdace8515dbfb6df8"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/skill-reference.md",
+          "size": 59946,
+          "sha256": "fc950406ce0863e5acfa6673d9ba57dda094ad109d880acffb78e26a138b348d"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/skill-system.md",
+          "size": 18059,
+          "sha256": "affa945bb1b076d23989af79b9291ae77f4f988807792c95ab848ebfad26f3b1"
+        },
+        {
+          "path": "QQ-agent-original/0.4/doc/extend_development/video-modes.md",
+          "size": 3826,
+          "sha256": "27b7a0dcc08cd63a64d8bbec0edea006c90c09c94db5bc3baf15b936dfb6e55c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/electron/main.js",
+          "size": 16799,
+          "sha256": "2de68cccd1931339884e8fc103748ce784722ff9ffe6bf144a70471a6fe671c9"
+        },
+        {
+          "path": "QQ-agent-original/0.4/electron/preload.cjs",
+          "size": 1366,
+          "sha256": "3315f02604252b7aa66e17e5280e2f36c63285741dfd2a254b930170026873de"
+        },
+        {
+          "path": "QQ-agent-original/0.4/package-lock.json",
+          "size": 167097,
+          "sha256": "cbd5d8b566c6832d11fd0d9daaa9d88be1244e363aa6d0923af037af19fcd761"
+        },
+        {
+          "path": "QQ-agent-original/0.4/package.json",
+          "size": 3810,
+          "sha256": "c0524c36d4d530ea84a65c7b644e7074261cccb0a43b3da18723c17010802ded"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/apply-vision-docs.mjs",
+          "size": 5952,
+          "sha256": "a165be0c0ce0309f8edfedf0978b175be6a2ab64b5fe63240e2231dc42fc1f16"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/export-prices-md.mjs",
+          "size": 3862,
+          "sha256": "d94e849e81a45e6ee6d8419df1605677b0a394e7ae410f7cf8cc1dd05d78f1f2"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/export-prices.mjs",
+          "size": 1465,
+          "sha256": "d155eb33fbfb565bf36f1085a162e5ecd07a5bd5154b80beca330b149acc5081"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/gen-icon.mjs",
+          "size": 2521,
+          "sha256": "b10812989d7fd086aafc1d7fb4ae6c37f8148cb7572db38043f17778e441d3f3"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/judge-check.mjs",
+          "size": 4287,
+          "sha256": "22fe0106316a2df101e7945f69e4b25ede7506877533c7bf587696205b025353"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/lib/download.mjs",
+          "size": 10373,
+          "sha256": "a15c59151770f29d0b659b45e5fe99fdaa07e643c870a1c4a23ff0c8f5edaf8b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/link-runtime-junctions.ps1",
+          "size": 2706,
+          "sha256": "04b476eaf7a0f928792f58ce8ca8e14bfd37ddb0cb01ff8dd292bbd49b5497b0"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/new-skill.mjs",
+          "size": 9197,
+          "sha256": "b3061e748391f2004e1d44a3b3a7a90c0706afd0ff5541c90364750d38ef3397"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/preload-check.mjs",
+          "size": 5718,
+          "sha256": "565f2db65e347dbea5b9f2c995365cfa73d4b4682bf7fce07b17205a2949b265"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/protocol-check.mjs",
+          "size": 4757,
+          "sha256": "3edccd028488202aa41478ef062feb78edd2dee303f8af198d61dd8c9fcfbd98"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/sanitize-release.mjs",
+          "size": 18760,
+          "sha256": "4506dca7560eb2e08655b17941cec42c2108c2dcceee1dd215df561594593046"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/setup-napcat.mjs",
+          "size": 7828,
+          "sha256": "8de5bc2275f0969cbf7c7af585a74875ee61a8e3f6deaa275acbf79ac282544a"
+        },
+        {
+          "path": "QQ-agent-original/0.4/scripts/setup-second-instance.mjs",
+          "size": 2298,
+          "sha256": "db9e8e8afd942c1a25a516ba5290b87eed688c45e9b4efe74ade7f551fa490f6"
+        },
+        {
+          "path": "QQ-agent-original/0.4/server/community-api.service",
+          "size": 350,
+          "sha256": "365894f266b132e31cce6d2a0ca5dd281f50d21b388d5b1788eb937f0d20fa5e"
+        },
+        {
+          "path": "QQ-agent-original/0.4/server/community_app.py",
+          "size": 42052,
+          "sha256": "be6025c7514cb6295ceb18ef4e57734a6be00faa79848eb4a7b031cc88b05fd2"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/app.js",
+          "size": 89771,
+          "sha256": "c5ce362721f5c62c1e955ccbc50832bb2b905db794f3a371f19cc83e1263c7f7"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/community.js",
+          "size": 8946,
+          "sha256": "292c26e3d04bb5535aecce7e0ee376bd5900db0fed86d1870bd1761d7bc82b33"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/config.js",
+          "size": 43199,
+          "sha256": "e064ed4ab015c770c32aa13ce68b08d23bdcb524628709e9e6b7df84a98d0a62"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/gif-to-video.js",
+          "size": 12128,
+          "sha256": "59a82e54e67b1da11e8d5350ece3f7fada6d438a3e5a5b778d87942f25559739"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/holidays.js",
+          "size": 7618,
+          "sha256": "7e06e2aeb0157fd57c5d8cc2ef174078f67cc60df708a5d1ca319886d4dad83d"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/image-compress.js",
+          "size": 5871,
+          "sha256": "b1c66007c0967811d6b42b85dcc1b25d96f3609e4a8d54cfb86e1f3bac3600b2"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/image-type.js",
+          "size": 2334,
+          "sha256": "901332e3968a0652d2e2943f8cc44430d2188784f28a1824ac272918860ea520"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/instance-lock.js",
+          "size": 4462,
+          "sha256": "829aee2fe7c260a2ba6dc80f4855c2812034b4a957cc82264cbae22488b5bb13"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/llm.js",
+          "size": 32577,
+          "sha256": "267b88a4594ff8502667229ce17540b28d00459f2d47609568c636931bc0a623"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/logger.js",
+          "size": 7022,
+          "sha256": "de7adcff152169e0a0cd8b772c607506a278953c8170dd7d51c553c2e1674a80"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/market.js",
+          "size": 13976,
+          "sha256": "9baf6af14ddde54275098f06d56916bc2f197c857bdb07e2bbf777250fa5ea04"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/md-to-plain.js",
+          "size": 2367,
+          "sha256": "01587cdff6a298d328c7564fbfe1b0e4fea7436e8ffe9ab957f2c1c83d662f50"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/media-links.js",
+          "size": 5000,
+          "sha256": "f617989acb14d7f2b9ca4f25120b9a1d6d70ac2e936be9cd4ce7826226d53088"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/memory.js",
+          "size": 22153,
+          "sha256": "49ceffaff26c52346bf37d48990dc159e1cb26daab9c36706708df1c0df5308b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/model-prices.js",
+          "size": 42054,
+          "sha256": "1bf21307ab11663e84012b5b3ab011f05a6af75379cf9867d4d39f6810188262"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/model-vision-docs.js",
+          "size": 17631,
+          "sha256": "f974f5a08b1fc9f2155e0fcbed67fb736aac6c8cfe079edac76933cd08d92fd1"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/onebot.js",
+          "size": 25819,
+          "sha256": "5e6e4b7f26585dc476de2d2f19476674ae30e4456b0a690460b39588a4f61d80"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/orchestrator.js",
+          "size": 103530,
+          "sha256": "54e5937b9b7bc192032880bd7c82b9000abb1c3b70f20d762124f98f7b84728b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/personas.js",
+          "size": 16040,
+          "sha256": "c9c8a386ae9e31ee3de6fd56b036046455a0c551511809a31297693cd53d081f"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/plugin-loader.js",
+          "size": 30859,
+          "sha256": "9c26547137c276f3f065eed48b3d5bd73dff293eaff902e6494b431d08f49d1c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/price-feed.js",
+          "size": 8786,
+          "sha256": "9f64144834e46b10a17595e067478c2582b710b24ac572194c0e0f022557125c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/profile.js",
+          "size": 769,
+          "sha256": "e40542d1e34f8526e8216571493468cdfa3193581e1de0228eda30656a82a7d0"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/prompt.js",
+          "size": 54134,
+          "sha256": "428fcd17b5f066c2ddecbdd529d8beadea086669bc16f63278bce28feae392db"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/providers.js",
+          "size": 18085,
+          "sha256": "6a54ca6301b37e7900852992c3583048aba91d4a4f6d30a727bb6f2444d580ae"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/reminders.js",
+          "size": 2938,
+          "sha256": "d82ff03c36f9bf87ac91382ee8577c59afa552362d9677e011df50ab954e03a6"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/reply-rescue.js",
+          "size": 5538,
+          "sha256": "be01218a3f030b3c2327dfc1d370fb7b26e0060b5f95dd687778773709fb6b91"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/routes.js",
+          "size": 72938,
+          "sha256": "c7438c60ba41d001956b39089b66e1bd1dd3bfb4a33ce03a67284821b9ce71c1"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/safe-fetch.js",
+          "size": 22927,
+          "sha256": "f44499820dcf9c87fd3a80938d40fc8fb5a827dde6b2fdfdccc4b2a98d58f474"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/sender.js",
+          "size": 21348,
+          "sha256": "b15b649f2aad869f1fe2f2b302d9ce2070c3beade1426b383b2b005fc3f90c9d"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/server.js",
+          "size": 771,
+          "sha256": "6ad9f289a7cb6eefa7f981100cb2b4c8fbb8f99e91376f016d4e951032e2012b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/sessions.js",
+          "size": 24229,
+          "sha256": "e1a2590b6ccbb16ff6e3bc2a4a162d98ce3b969b6e41f3029ec7d534e906a5d1"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/skills/capabilities.js",
+          "size": 2664,
+          "sha256": "b20f4e82f048a7685719a3de39fb5cac24dd0fdfd556267308fac5fa4ea5d5dd"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/skills/config.js",
+          "size": 2204,
+          "sha256": "e0c02af7b15e8c873b703d3a8a7ddb5576eb821dc9bc3171126c808df3accf3d"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/skills/errors.js",
+          "size": 1647,
+          "sha256": "886b629edc99226304151d23c8a2e124740eede90bc6405401aea29a6215a4cf"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/skills/manager.js",
+          "size": 24213,
+          "sha256": "9581bb2277a1300561e61d56e15211e92c701df834444e4d2bf5f9eaa46905aa"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/skills/manifest.js",
+          "size": 6281,
+          "sha256": "71f9787f99e025ca2dc8c58ee3d1bfa74cbf545647fb111f31d897e314791f68"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/skills/registry.js",
+          "size": 1650,
+          "sha256": "5e6d98dbfb99ebeaa658769bf16a1fa1be396c50d2b8aaa8a444a17ac0ee4819"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/sticker-manager.js",
+          "size": 12275,
+          "sha256": "0523b167c6ea565108a5e95aecff495d9a35b61e48b1924b8cd479784255be6b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/stickers.js",
+          "size": 11991,
+          "sha256": "d0e436a301d838afe7476a5335758b3fd7ac8b27d68250942ff722191fa2f73c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/store.js",
+          "size": 13895,
+          "sha256": "f9e2596c6d4cb8e7665f4bbb74f7cfbd35a61105f8b7401b608df173c93b5f11"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/telemetry.js",
+          "size": 4909,
+          "sha256": "478867d8497a997b8c434dbb0f54ed69be996319fe0de51503f77aeb538953f9"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/thinking.js",
+          "size": 14590,
+          "sha256": "e0b57cb54466d328f1f437fd6193db9641cb1c42eee0dda2eb53588ec4778377"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/tier-slider.js",
+          "size": 2441,
+          "sha256": "15c8633b2fbd22eadabd58df94664be67b55547025b0b895c87efd89e0fd0e4e"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/tool-registry.js",
+          "size": 10688,
+          "sha256": "be78379fc75c78127105dbb5c30c6db6cc6fe797dd4c44deee12adb39a9dee38"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/tools.js",
+          "size": 60425,
+          "sha256": "fe7beeb07ca5e5b394ac5100c827ad6ff3352beff295432d68367d5fc527cf3b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/util.js",
+          "size": 9269,
+          "sha256": "8189b21b76bc5daefc066ab25146acfb59e058885a638a5eca6a9941de09a9d7"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/video-reader.js",
+          "size": 17023,
+          "sha256": "e140494edcea31f2b96613c3d2f1aa714b3eca004a3cf11d09857d39825b1eef"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/vision-scan.js",
+          "size": 7714,
+          "sha256": "25d61ac88241190e73bcaa25598a513533aeabe220051abfe325e8a3f346e974"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/web-search.js",
+          "size": 28641,
+          "sha256": "d98377117547b152df3cfa56a16de734977b0659c1c71063ec2848261a82f803"
+        },
+        {
+          "path": "QQ-agent-original/0.4/src/zip-install.js",
+          "size": 5726,
+          "sha256": "9addce365b37179f8e940c991578ff945423014edb11694d3ba3d5c52590382e"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/_harness.mjs",
+          "size": 18445,
+          "sha256": "0aa7362469115a0c0bbec1370800a157da0daddb1b85df60354d1e357e1631ea"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/_ui-load.mjs",
+          "size": 2060,
+          "sha256": "f57e75ba49f79647195e35e00ed17d710924d5dcc51fb04aa2824edea047e5bf"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/community-test.mjs",
+          "size": 6777,
+          "sha256": "027fbf8b73d444f8ca22b7041cf214e753b9a1fdc063530b2926fe9ef0e1a165"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/coverage-e2e.mjs",
+          "size": 40844,
+          "sha256": "5e6bc8ed06f3ce8edc61789ac7e8d40791c66df2f0ebe374cc3b9cbe1b4a6fb8"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/coverage-http.mjs",
+          "size": 54453,
+          "sha256": "b0cadd4e2ccac103751eb0557b7e2274d6ee2542386adb809d2363e2fd726f5b"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/coverage-offline.mjs",
+          "size": 64477,
+          "sha256": "9afd436c5bb2ef7bb1d329c7b564e45f30169d9135137c7052d70288a84a6561"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/coverage-ui.mjs",
+          "size": 16949,
+          "sha256": "faff109655d62f3ef998506d8b469aa724a533ca28ed4273794936250756fc36"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/coverage-wiring.mjs",
+          "size": 16362,
+          "sha256": "1528c4a8d14124679c5b8678d3e1351c7f303015dd937fca3d455220d092d1f7"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/external-onebot-boundary-test.mjs",
+          "size": 3825,
+          "sha256": "24b63dadcdc6a95c921c553f780a1c3418005911406c3ab081eea7a87625d70d"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/judge-cases.json",
+          "size": 3707,
+          "sha256": "f162f43c9d0bb9d4ecde97a98678f8e604b9803c1ad4dc9db6619b0c49140352"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/market-zip-test.mjs",
+          "size": 6942,
+          "sha256": "d3f9fb122db1184ac868232a3742662c2906ed577269101b8d2d1ed5610e33ca"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/message-id-test.mjs",
+          "size": 2149,
+          "sha256": "d46820aff3b5e832c6d1005e70767f00a6c70abda287510599abb443a6e9efac"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/onebot-whitelist-test.mjs",
+          "size": 9869,
+          "sha256": "e843e78cff47642a9b53e92f96ddcf363b0a74bb3f35f683617cce2c06c109a2"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/prompt-anchor-test.mjs",
+          "size": 12043,
+          "sha256": "9cc978f51c1062fa825de4f19892c1a29ffceaf4a73f75cf93b4f6a4aedc85b3"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/render-test.mjs",
+          "size": 42386,
+          "sha256": "67e1a4f369c9f76ee8eb035136eef91ea6cd791eae64d7d734c2ebd37f214c4c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/safe-fetch-file-test.mjs",
+          "size": 6986,
+          "sha256": "c91fa95fde734059f99ab16c67b3e455f3614157562adec5fb357691364de826"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/scroll-test.mjs",
+          "size": 12946,
+          "sha256": "9e8e06630e7501f8940eb0399653ec8b9e787923568c06350a0c3c7712b391dd"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/selftest.mjs",
+          "size": 83516,
+          "sha256": "7396a6a59657fd229a67d275a74e2fed109b826687668cb828c855fdd1401e76"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/sender-file-uri-test.mjs",
+          "size": 4482,
+          "sha256": "7c05e3f0e3f556051b74f9cb071d189ae1d88d123e63396f075ff646dba17b39"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/sender-send-path-test.mjs",
+          "size": 8340,
+          "sha256": "35b291b4ec68399e7382919668441606adc840903100edd5085d6fd6302ddedc"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/setup-download.mjs",
+          "size": 10524,
+          "sha256": "22718f45d803e46b6d26f740b24fe2ae083d20883c401c74f0dbe776c6e0a879"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/skill-modal-ui.mjs",
+          "size": 9706,
+          "sha256": "fb4d1c86a4cbc1934bf035fd3fe1ca348fedb9067a376f5fe249b780a320c1d3"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/skill-test.mjs",
+          "size": 36366,
+          "sha256": "a4448bcbe86570f9775ad89d5d31549f63ba4c56aa767d32a68a03b548e405cd"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/sticker-collect-test.mjs",
+          "size": 8349,
+          "sha256": "7d3df9abd61dd0b2ae02a626210d8dcb3675cb0d1cf13507e32f547c4b4cb46c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/sticker-context.mjs",
+          "size": 3901,
+          "sha256": "ef15b93f09f25ef1b5a16622fd02d4d40f96f8f9478e1e03f8152e2b43c635c4"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/test-prompt.mjs",
+          "size": 14985,
+          "sha256": "bb54d9ff9a5ed1c21137bc93ae00dbdb9559a9d2eb175632a38a9a757390d0f6"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/tools-skill-audit.mjs",
+          "size": 32905,
+          "sha256": "ee9944502584351c679e64362dbea695aa07019d04a0b91aab0a5bf96954a6a5"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/usage-daily-test.mjs",
+          "size": 7232,
+          "sha256": "6e43e83aca04a9658925e654646901b1b3d7cfcf444d58641114439d92dfe90a"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/usage-e2e.mjs",
+          "size": 13149,
+          "sha256": "095541caa167aee4db266932d5cc07da967dae8596173673caf7f24638daa473"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/vendor-mirror-test.mjs",
+          "size": 5277,
+          "sha256": "ece27fd3ea76c173552f0af42aea5330db1f28406234632f512689ca1e088687"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/wake-semantics-test.mjs",
+          "size": 11880,
+          "sha256": "0ddddc82c02ee2cf6356a565b54f84a8fcf6b6c6ba0faee14be584f63a457d91"
+        },
+        {
+          "path": "QQ-agent-original/0.4/test/web-search-parse.mjs",
+          "size": 3208,
+          "sha256": "f641a7d1c773e730524c6d0d0ceb80b488ccc6b657a90c4f04249492e16dc6a2"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app.js",
+          "size": 1187,
+          "sha256": "47a6d8c8be6ca53cbe349fcc7f7406804853a0549ef2dceba4f06c2f0e26eda8"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/00-core.js",
+          "size": 37738,
+          "sha256": "619c91cb1bf5387983d4934f241eab83b26b316caf160d04821aebb269ca171c"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/01-boot.js",
+          "size": 5354,
+          "sha256": "97d8295aad0aa4f61268c8768eff11f9646cc3e3d81054cb7f16d6fac3cfe74d"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/02-sse-sessions.js",
+          "size": 33067,
+          "sha256": "7cc47f3e66ae70342a8b796d78f9e98cd448f2ef64a6bf069b210bda5746bbbd"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/04-archive-usage.js",
+          "size": 41840,
+          "sha256": "9f2f68af82d062e6ebc8d1fb43c5ac737df5a837a5fd4624bd754a32a3e22a37"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/05-memory-settings.js",
+          "size": 39076,
+          "sha256": "1ff8ce4d390c725ca09b77acb4c6761a3a6e4d0c36de5f2029ff57513658e4b9"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/06-settings-render.js",
+          "size": 96606,
+          "sha256": "15239c36f05b42e7c115532798b022e7bb223f84ca91a9da9f5053dd3874737e"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/07-settings-events.js",
+          "size": 48493,
+          "sha256": "6ed8df87df8dcc0a6fab50fce5eef8d77e6968950a307d3337c239d0cb715d12"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/08-modals.js",
+          "size": 79304,
+          "sha256": "7acb9d0cc2bbad4049e788c8996a4de3dc0c2e05f99738ed04fd161dbf2aeda4"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/09-community.js",
+          "size": 61630,
+          "sha256": "db16c27cfd989000151efb18fc0b7abe6f342c95f69dd380dbaab25c2345c0f4"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/10-feedback.js",
+          "size": 45118,
+          "sha256": "71d2cfa11c1c25d00b6021cf814f1684f56307f47debc5251d18d21306a6dd41"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/11-init.js",
+          "size": 2454,
+          "sha256": "792837a17dd81ffc68206697058dc110b3c6614ca70e514901475d27265683e8"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/app/12-concept2-ui.js",
+          "size": 16472,
+          "sha256": "4b4680c9fa62534f9dae33ff76def34525e3a95a86709b9700936e8a7cb72be7"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/captcha-sw.js",
+          "size": 2612,
+          "sha256": "00ddd73eb3af72e7e3667bce26778b90378d811c68defaa7ed0b09d20aa375cb"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/group-qrcode.jpg",
+          "size": 684226,
+          "sha256": "2ef7ce99d92573b45a465d12588a0651bca9a17402ee50eb5f07bb1c126b2145"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/index.html",
+          "size": 9561,
+          "sha256": "6cb3febe6775cbf1680c1768f73d073a36760f06d920cc1641da14e81a713773"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/landing.html",
+          "size": 21407,
+          "sha256": "86fc0fc411da76ab96ca9960f44c4a0d51f43913809690720d5334d22ba90c5f"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/persona-plaza/index.html",
+          "size": 10005,
+          "sha256": "6b691e9bb5ca52497cc92f343b5341166117f57667e41952c0eecc139c574167"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/plugin-market/index.html",
+          "size": 16786,
+          "sha256": "5bc925281460cfe9132017e646670af249d61ffcd02a55bc54543657f943ba5f"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/skill-market/index.html",
+          "size": 17330,
+          "sha256": "3b71e7350a2e649c2a42790b1e3699659943bdf46cc85aeec7dc58d3c89e50b7"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/style.css",
+          "size": 77693,
+          "sha256": "5ed077e9aa688cc9600010e3fab670fff40e98f40d773edb4da08256189cdada"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/vendor/price-match.js",
+          "size": 1542,
+          "sha256": "2e9af654ce8e32d1f8aff65a0a7cfeb19104fdd6df6066333123dffe010d9588"
+        },
+        {
+          "path": "QQ-agent-original/0.4/ui/vendor/tier-slider.js",
+          "size": 2495,
+          "sha256": "96e0319da820ab5843d577af2b0c5cee0f2bf1001e98af2b7b974893e4f4df14"
+        },
+        {
+          "path": "QQ-agent-original/0.4/启动QQ机器人.bat",
+          "size": 616,
+          "sha256": "62895d684808640217899969cf2defb12667f2e31976886bed8daa41b1505434"
+        },
+        {
+          "path": "QQ-agent-original/LICENSE",
+          "size": 1064,
+          "sha256": "1d428d5bef9c276253ea40aa2d2b7b75b4b6c0de19d1fa71b0d0452cfc255ffb"
+        },
+        {
+          "path": "QQ-agent-original/README.md",
+          "size": 8171,
+          "sha256": "daaf23769231eed0245c9da7e612ddc0e28f6f572e265b58217e2f2ea5686749"
+        }
+      ]
+    },
+    {
+      "file": "QQ-Agent-0.4-本机修改版-含扩展人设.zip",
+      "size": 6754320,
+      "sha256": "71296a820f270d6dd4bdc0585d3a479912ee40ff2d165b144995e51950b1f48d",
+      "file_count": 291,
+      "files": [
+        {
+          "path": "QQ-agent-local/.gitignore",
+          "size": 841,
+          "sha256": "794ce3da916468125f41dd5e13a3515dc18dc334d14b5359101fe653664fbe7b"
+        },
+        {
+          "path": "QQ-agent-local/.zcodeignore",
+          "size": 1583,
+          "sha256": "371563ba446e5ddc4e82ff06d0a860ed3f329f6644625fd50dada100fad4f6a2"
+        },
+        {
+          "path": "QQ-agent-local/LICENSE",
+          "size": 1064,
+          "sha256": "1d428d5bef9c276253ea40aa2d2b7b75b4b6c0de19d1fa71b0d0452cfc255ffb"
+        },
+        {
+          "path": "QQ-agent-local/README.md",
+          "size": 13659,
+          "sha256": "ce322a105ae0e486c89b8cca03cdf280c16c96a16ea084c47d0ae30226d849d7"
+        },
+        {
+          "path": "QQ-agent-local/SOURCE.txt",
+          "size": 7236,
+          "sha256": "e12871fab226bc57f4a439401f8473c7fcaa6f11a63742ee70e236e21f6e2b3e"
+        },
+        {
+          "path": "QQ-agent-local/assets/icon.ico",
+          "size": 110838,
+          "sha256": "83c75dbabc742973b910ae69d0d3d2c6903d3c0d878918050e8cff639948e34f"
+        },
+        {
+          "path": "QQ-agent-local/assets/icon.png",
+          "size": 280346,
+          "sha256": "b0a2cb7a2a6d83a71c982a51196bfb3418062b9101605242196671d006367ce0"
+        },
+        {
+          "path": "QQ-agent-local/build/installer.nsh",
+          "size": 10844,
+          "sha256": "e240194a52758522b07940c8c2482248bc8670a148590b0a3974904275763e9e"
+        },
+        {
+          "path": "QQ-agent-local/community.key.example",
+          "size": 141,
+          "sha256": "70e2c297eda81438db104f8b434868fb438be43c20298092fe8def96206cfb89"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/multi-instance.md",
+          "size": 2543,
+          "sha256": "bb3875a31df6d7d464821b989994af90b07ae45fc4b8fe38665adf9291c37a6c"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/plugin-development.md",
+          "size": 28760,
+          "sha256": "b746738fe9fc54a19718a104268485d6f48669a57192ff5e988ea0bee81f27c9"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/prompt-pipeline.md",
+          "size": 9920,
+          "sha256": "0e41827253a6d46ad8412c57f682d7fa1d2c0b6b87d1a1b0d82c8976f005306f"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/skill-development.md",
+          "size": 25874,
+          "sha256": "5136a399cb26f98495dbfb4b9a4daca21f3cc403428d1d32880f86fb4e0c1785"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/skill-guide-for-beginners.md",
+          "size": 36378,
+          "sha256": "3cd11610225a7ee032a9ab933b57378e0860049e97e1addcdace8515dbfb6df8"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/skill-reference.md",
+          "size": 59946,
+          "sha256": "fc950406ce0863e5acfa6673d9ba57dda094ad109d880acffb78e26a138b348d"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/skill-system.md",
+          "size": 18059,
+          "sha256": "affa945bb1b076d23989af79b9291ae77f4f988807792c95ab848ebfad26f3b1"
+        },
+        {
+          "path": "QQ-agent-local/doc/extend_development/video-modes.md",
+          "size": 3826,
+          "sha256": "27b7a0dcc08cd63a64d8bbec0edea006c90c09c94db5bc3baf15b936dfb6e55c"
+        },
+        {
+          "path": "QQ-agent-local/electron/main.js",
+          "size": 16799,
+          "sha256": "2de68cccd1931339884e8fc103748ce784722ff9ffe6bf144a70471a6fe671c9"
+        },
+        {
+          "path": "QQ-agent-local/electron/preload.cjs",
+          "size": 1366,
+          "sha256": "3315f02604252b7aa66e17e5280e2f36c63285741dfd2a254b930170026873de"
+        },
+        {
+          "path": "QQ-agent-local/package-lock.json",
+          "size": 167097,
+          "sha256": "cbd5d8b566c6832d11fd0d9daaa9d88be1244e363aa6d0923af037af19fcd761"
+        },
+        {
+          "path": "QQ-agent-local/package.json",
+          "size": 3810,
+          "sha256": "c0524c36d4d530ea84a65c7b644e7074261cccb0a43b3da18723c17010802ded"
+        },
+        {
+          "path": "QQ-agent-local/persona-community-original.md",
+          "size": 8139,
+          "sha256": "0d86512668c14ee8cfb95c28045cecd51ee7d1a92a92afb58ab4f82b93f8044f"
+        },
+        {
+          "path": "QQ-agent-local/persona-dushe.md",
+          "size": 5542,
+          "sha256": "1b6c42ac448340f070e6da32ea1554ad40d51feb2fdca69e8c757dd43ebe3327"
+        },
+        {
+          "path": "QQ-agent-local/persona.md",
+          "size": 20910,
+          "sha256": "8c8930f72b582ab313c36b72c24b6a2d954601b191d85dca309aa1156a38feb9"
+        },
+        {
+          "path": "QQ-agent-local/plugins/early-finish/README.md",
+          "size": 4525,
+          "sha256": "d7932b95de4310ca64172ecc81df7349449b280022cdd7a1e31238ced5ade5d2"
+        },
+        {
+          "path": "QQ-agent-local/plugins/early-finish/index.js",
+          "size": 6401,
+          "sha256": "485d476ff38703054d4134e16782e2cb9aa3145f9f836bbd7576170941cc1d75"
+        },
+        {
+          "path": "QQ-agent-local/plugins/early-finish/lib/policy.js",
+          "size": 3663,
+          "sha256": "e58b96309f835c198afc027a1937ccf59fe0e9271574574d96888782aa7c2a55"
+        },
+        {
+          "path": "QQ-agent-local/plugins/early-finish/plugin.json",
+          "size": 1744,
+          "sha256": "8139a693cfd39f0b9f46dee20eb28a838ce22b5d52e7df9451141654d07fd8fd"
+        },
+        {
+          "path": "QQ-agent-local/plugins/hot-trend-tracker/index.js",
+          "size": 42807,
+          "sha256": "00a5167ae691237f7350a46666af5e4b00232f6b1417ce45fc34efb5d3d73eb1"
+        },
+        {
+          "path": "QQ-agent-local/plugins/hot-trend-tracker/plugin.json",
+          "size": 7583,
+          "sha256": "e60d687a340a2a547826a85a7273230271fa027b5a5162b59aff26ac23b99ec2"
+        },
+        {
+          "path": "QQ-agent-local/plugins/repeat-echo/index.js",
+          "size": 7290,
+          "sha256": "31647f7e5f462aaab14aa14c23b24b4750dfd232e7782196329e4d1e08074b3f"
+        },
+        {
+          "path": "QQ-agent-local/plugins/repeat-echo/logic.js",
+          "size": 6117,
+          "sha256": "a7515d785546ad6b2407c826a9874760c9445c90c4804de0a3e25493adfd3dc1"
+        },
+        {
+          "path": "QQ-agent-local/plugins/repeat-echo/plugin.json",
+          "size": 3109,
+          "sha256": "3a3e83de3370899c44fb213ca4968891711aea99c1d1e2aa4170a53cf0363cd8"
+        },
+        {
+          "path": "QQ-agent-local/plugins/self-surf/index.js",
+          "size": 33966,
+          "sha256": "f8e12e8fbd0c97ba87680f69259c3f9b33809c1783030d5e07ce745689321111"
+        },
+        {
+          "path": "QQ-agent-local/plugins/self-surf/plugin.json",
+          "size": 5785,
+          "sha256": "642fe7d7c45a8cf22d99b72b0e14baae9842e2d22afc5d42dd550d550424e187"
+        },
+        {
+          "path": "QQ-agent-local/plugins/sticker-steal/index.js",
+          "size": 256808,
+          "sha256": "608aaa120fc2509c58520f7ddc325539b71f723cf3ffc5c19a6f0a4a69d2dbed"
+        },
+        {
+          "path": "QQ-agent-local/plugins/sticker-steal/index.js.bak-cachefix",
+          "size": 255961,
+          "sha256": "c1100beed13d9fa9f2f5bac6b1ed8b22a766ac366615a3e27a20d1e799265f8e"
+        },
+        {
+          "path": "QQ-agent-local/plugins/sticker-steal/plugin.json",
+          "size": 20843,
+          "sha256": "27237e9d3b4fe6bd09907aa854a40d22ad1c1d22930a294aad888ff0837cbef2"
+        },
+        {
+          "path": "QQ-agent-local/plugins/thursday-vibe/index.js",
+          "size": 37685,
+          "sha256": "29a52141c216191a47c0f3f9c06a20b58ded28c7a437aacc10da504a5542fa46"
+        },
+        {
+          "path": "QQ-agent-local/plugins/thursday-vibe/plugin.json",
+          "size": 8990,
+          "sha256": "623084f7406af1267ddf08a8c9f4d56c8bede3d7283ace8683d9e6104ebfaa45"
+        },
+        {
+          "path": "QQ-agent-local/scripts/apply-vision-docs.mjs",
+          "size": 5952,
+          "sha256": "a165be0c0ce0309f8edfedf0978b175be6a2ab64b5fe63240e2231dc42fc1f16"
+        },
+        {
+          "path": "QQ-agent-local/scripts/export-prices-md.mjs",
+          "size": 3862,
+          "sha256": "d94e849e81a45e6ee6d8419df1605677b0a394e7ae410f7cf8cc1dd05d78f1f2"
+        },
+        {
+          "path": "QQ-agent-local/scripts/export-prices.mjs",
+          "size": 1465,
+          "sha256": "d155eb33fbfb565bf36f1085a162e5ecd07a5bd5154b80beca330b149acc5081"
+        },
+        {
+          "path": "QQ-agent-local/scripts/gen-icon.mjs",
+          "size": 2521,
+          "sha256": "b10812989d7fd086aafc1d7fb4ae6c37f8148cb7572db38043f17778e441d3f3"
+        },
+        {
+          "path": "QQ-agent-local/scripts/judge-check.mjs",
+          "size": 4287,
+          "sha256": "22fe0106316a2df101e7945f69e4b25ede7506877533c7bf587696205b025353"
+        },
+        {
+          "path": "QQ-agent-local/scripts/lib/download.mjs",
+          "size": 10373,
+          "sha256": "a15c59151770f29d0b659b45e5fe99fdaa07e643c870a1c4a23ff0c8f5edaf8b"
+        },
+        {
+          "path": "QQ-agent-local/scripts/link-runtime-junctions.ps1",
+          "size": 2706,
+          "sha256": "04b476eaf7a0f928792f58ce8ca8e14bfd37ddb0cb01ff8dd292bbd49b5497b0"
+        },
+        {
+          "path": "QQ-agent-local/scripts/new-skill.mjs",
+          "size": 9197,
+          "sha256": "b3061e748391f2004e1d44a3b3a7a90c0706afd0ff5541c90364750d38ef3397"
+        },
+        {
+          "path": "QQ-agent-local/scripts/preload-check.mjs",
+          "size": 5718,
+          "sha256": "565f2db65e347dbea5b9f2c995365cfa73d4b4682bf7fce07b17205a2949b265"
+        },
+        {
+          "path": "QQ-agent-local/scripts/protocol-check.mjs",
+          "size": 4757,
+          "sha256": "3edccd028488202aa41478ef062feb78edd2dee303f8af198d61dd8c9fcfbd98"
+        },
+        {
+          "path": "QQ-agent-local/scripts/sanitize-release.mjs",
+          "size": 18760,
+          "sha256": "4506dca7560eb2e08655b17941cec42c2108c2dcceee1dd215df561594593046"
+        },
+        {
+          "path": "QQ-agent-local/scripts/setup-napcat.mjs",
+          "size": 7828,
+          "sha256": "8de5bc2275f0969cbf7c7af585a74875ee61a8e3f6deaa275acbf79ac282544a"
+        },
+        {
+          "path": "QQ-agent-local/scripts/setup-second-instance.mjs",
+          "size": 2298,
+          "sha256": "db9e8e8afd942c1a25a516ba5290b87eed688c45e9b4efe74ade7f551fa490f6"
+        },
+        {
+          "path": "QQ-agent-local/server/community-api.service",
+          "size": 350,
+          "sha256": "365894f266b132e31cce6d2a0ca5dd281f50d21b388d5b1788eb937f0d20fa5e"
+        },
+        {
+          "path": "QQ-agent-local/server/community_app.py",
+          "size": 42052,
+          "sha256": "be6025c7514cb6295ceb18ef4e57734a6be00faa79848eb4a7b031cc88b05fd2"
+        },
+        {
+          "path": "QQ-agent-local/skills/ammo-price/README.md",
+          "size": 12195,
+          "sha256": "72d68c9ed789303e076634f523e4421ea9dc8b7b51807f266e40a64f05063251"
+        },
+        {
+          "path": "QQ-agent-local/skills/ammo-price/index.js",
+          "size": 50073,
+          "sha256": "8ee248243d7cb0972749526d516da8ca23768788bb7da1e778785019398b4313"
+        },
+        {
+          "path": "QQ-agent-local/skills/ammo-price/skill.json",
+          "size": 11047,
+          "sha256": "2b7d5bef10c4c6e4018c1e186d3dd12e3cad14ff74befddc176aa41dcb3dec15"
+        },
+        {
+          "path": "QQ-agent-local/skills/bangumi-lookup/index.js",
+          "size": 46409,
+          "sha256": "14a24706504c911d94e45134fb3ca8dfd5888a9b3884277bcdce67535e34fe39"
+        },
+        {
+          "path": "QQ-agent-local/skills/bangumi-lookup/selftest.mjs",
+          "size": 23585,
+          "sha256": "97f07d851301cf08a9c0c960010a4d5eda5d1e6810263c78435389f2b9c677fe"
+        },
+        {
+          "path": "QQ-agent-local/skills/bangumi-lookup/skill.json",
+          "size": 5916,
+          "sha256": "f30c2d94c9a64bed2ce1a7961ad837f6089b8a9c581c197da39ec090c3e45289"
+        },
+        {
+          "path": "QQ-agent-local/skills/daily-fortune/README.md",
+          "size": 3193,
+          "sha256": "312dfee4694f1577546f81a520a274bbd0fae2efc826831495ba40d597fd1b9d"
+        },
+        {
+          "path": "QQ-agent-local/skills/daily-fortune/index.js",
+          "size": 29100,
+          "sha256": "b8b8f4a1e2852fb1b159884989e7815cd057687a1205ac9cd6f4909295b8cb6d"
+        },
+        {
+          "path": "QQ-agent-local/skills/daily-fortune/skill.json",
+          "size": 7910,
+          "sha256": "a4f9a04add5430bdb9ccc8b7f5da199fddf0f3ccfdbf41526aed4cf4669c437c"
+        },
+        {
+          "path": "QQ-agent-local/skills/dfttk/calc.js",
+          "size": 38345,
+          "sha256": "e7d2b8a8dd1940df977a0527466a7a18ddc9bfdc857d76bc58ec8d1290c48106"
+        },
+        {
+          "path": "QQ-agent-local/skills/dfttk/index.js",
+          "size": 46462,
+          "sha256": "feab50e342666c212880de167da8c26744e7cebba7ce0e7b42cad7a453c307a5"
+        },
+        {
+          "path": "QQ-agent-local/skills/dfttk/skill.json",
+          "size": 3315,
+          "sha256": "f1fa4469a378ff59f5e4adcbc2568622f4a849fbf7770d4df064c100d0754eb8"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/SECURITY.md",
+          "size": 1320,
+          "sha256": "5b0629da103f0947ecfe15198993da16ab8c6f5a02cc82feccbaf61e02e7b1c5"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/SKILL.md",
+          "size": 9518,
+          "sha256": "825edd66bed33ce514c12d0cd3f2f002417c7aa357b58a6aae658cad26f6e083"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/agents/openai.yaml",
+          "size": 252,
+          "sha256": "ee51fe0998e7785b61268ac0f3e76699507efd0bdb63cc4ca735c686db531d06"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/documentation/architecture.md",
+          "size": 4036,
+          "sha256": "10709e194534689418db9a01cef84e13d2407012264f9e4f63609b685644e384"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/documentation/automation.md",
+          "size": 2163,
+          "sha256": "ef35678aa0ed7ba20690223d08eb704e3b32ecccead9d950eae0fedc2a24c357"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/documentation/flows.md",
+          "size": 5812,
+          "sha256": "184d779e368e3e8e995ae40c3e42049db14ff4a5ef487a82d5fb1c518adb1c9e"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/documentation/knowledge-base.md",
+          "size": 2613,
+          "sha256": "2d4b7014f566f39c53d8870f938b04af0618a706952fffd0eddc31c62b61e6d9"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/documentation/permissions.md",
+          "size": 1974,
+          "sha256": "08351b6cb9035907b95c04a93fb8a9a508cdc4a18254f02b834788cdb908bf93"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/documentation/product.md",
+          "size": 5484,
+          "sha256": "b2e96f720aa3782c9a9a686b31c52149cd16915cb1c1446b2f183b750fd9b801"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/documentation/variables.md",
+          "size": 893,
+          "sha256": "7d464ad8df95480234e6f758db03625f142838dddcf161578e04227a9a36e777"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/index.js",
+          "size": 5936,
+          "sha256": "660ac261d904b329c20b6436ceab38b644beb320493accac484eea1316054000"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/01-证据分级与内容边界.md",
+          "size": 4203,
+          "sha256": "9b28d1598a253837f43ab133cdb936084a6d20818e5a5d9b27cfcfe14c4fdbeb"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/02-亲密关系心理学总论.md",
+          "size": 5765,
+          "sha256": "791950799de076ce622dca85c6d67a3ac80715c2ca138e3b2ac035dd906181d5"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/03-依恋理论与情绪调节.md",
+          "size": 3600,
+          "sha256": "3a23188ca0f199676a3aa8908562457f1aee59d244fb00fe0e3780b98f689f24"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/04-MBTI人格与匹配.md",
+          "size": 3994,
+          "sha256": "be50295d2e944894a9dd5b3715352b754e2420508e58000255e47c12862f8ac9"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/05-PUA操控与伦理替代.md",
+          "size": 5232,
+          "sha256": "ea7664289c27c6fcb0ef709583ee10b0b6c0954c4f220a00f665eb74b4529cfb"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/06-吸引约会与关系启动.md",
+          "size": 4691,
+          "sha256": "27168cba7b73b128e6db6b860dde92ea52a9cfe6ff0cfbcde78c1be25500b825"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/07-沟通冲突与修复.md",
+          "size": 4471,
+          "sha256": "440fadf71455dac36fbe291bffa2246e035f5dd0d9d7167cd9a129443375828b"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/08-同意边界性与亲密.md",
+          "size": 4037,
+          "sha256": "51688890c32a4f134f770d09c210e39361c50fa3753119836fd41b2d5b17c9b4"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/09-在线约会与数字关系.md",
+          "size": 6488,
+          "sha256": "8c46faff08e601591e12c92df99a0d224b3440a2586660ce70f36ae79479d9d5"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/10-恋爱哲学.md",
+          "size": 4633,
+          "sha256": "701cf03203d3544e059e7d463167b9cec3914f5fce2ed35af6c416cc80812120"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/11-婚姻家庭与生命周期.md",
+          "size": 4657,
+          "sha256": "644755f2e98ca18bd26e86cd8845fecf43cc122c16e5756ebc3166cb8bd7de6c"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/12-金钱家务育儿与双方家庭.md",
+          "size": 4556,
+          "sha256": "9395c909149b552fbd860f57b11cc1a6175d9e2d9518220cf660c38ca7da362c"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/13-现代婚姻变迁史.md",
+          "size": 5143,
+          "sha256": "9e451325d546669c9fc7e48e56396940b5a86b7e8efba82fad16dac8dd0508db"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/14-社会发展与家庭变迁.md",
+          "size": 5238,
+          "sha256": "52d2928577f4c69458c03ac4aa0991749b5eaf7c5a4d860b0b458caa60d184e8"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/15-分手背叛与关系修复.md",
+          "size": 4475,
+          "sha256": "95532db79ce3119774956f2c2f8cfccde1a84c35c15f5963057389ad6cec1f05"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/16-多元关系与反刻板印象.md",
+          "size": 4385,
+          "sha256": "8276f70a42d3dccb53c9015b2519761eec3743e696f7572e2c6d8d60b77dc446"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/17-中国法律安全与危机转介.md",
+          "size": 5372,
+          "sha256": "d8a34ca0b20c14e2b7c996c4bcb2cb7774cb94bc99660b66262a95d5aa5ec9c8"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/18-实用练习与对话卡.md",
+          "size": 4569,
+          "sha256": "b4040cf5de8fd505380518df8982e92d140954d05bc5c305694a7212630e69a7"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/19-核心书单与论文索引.md",
+          "size": 7153,
+          "sha256": "cd968abfc85d5812c26c5aca50a5a075e92db1c1c99574e7df6e214758d77605"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/knowledge/20-经典社交体系的机制、证据与风险边界.md",
+          "size": 9435,
+          "sha256": "9f61db17ef76314b51ac077a908923ab7b379a2d819b040c67fa3e9ed7251faa"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/00-导读与使用分级.md",
+          "size": 5658,
+          "sha256": "4403632c5f655eb9d7cf59032dfe202ae90512e6cbf3721c19e5cb4855802c8f"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/ChatLab聊天记录分析适配.md",
+          "size": 4236,
+          "sha256": "ab331bec127adb224b00e162ccd43d6605cf9a63bd62079a04da6cb6faf9f5d5"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/万能吵架技巧：理性冲突处理指南.md",
+          "size": 6616,
+          "sha256": "ea8305e07aa5a4c58b3e15ce28950a6cc8da4862704aae70a4483f4639fa0a5e"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md",
+          "size": 11278,
+          "sha256": "fca5a133a09588de697883792e8024d6effd7dd229d41956b0542101242f2d77"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md",
+          "size": 12247,
+          "sha256": "565c7b4b9e27993a92de6339e403f9f82ededa87dc1e205d4602742ad6693c8b"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/主动表达、第一次见面与自然接触.md",
+          "size": 6657,
+          "sha256": "bd52dec6e84d0e986b5c56edd1320e23254d48d00be5dc249a555063d071abff"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/公开表达案例的伦理转译.md",
+          "size": 2390,
+          "sha256": "16e6f5b89cf682581d671bc09d181483549ad5135d14c93ae61db18e69bd62df"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md",
+          "size": 6808,
+          "sha256": "4e724e9a5b272ad1a6833ddbb9d84eeb86c3b2e395e5f241d90f8655930c77c3"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/化解尴尬：轻松救场的实用指南.md",
+          "size": 10460,
+          "sha256": "e87b3e90c1c3fbe17708d1b7bcc43549f8d042d7653c7fd48d7dbb5b0b7c5fcb"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md",
+          "size": 7013,
+          "sha256": "01864b3713a8b25bd310a3678b44d2e937ce3a2817c381090d8ba71ab534c4d5"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/实战话术编排器：从一句回复到后续分支.md",
+          "size": 9239,
+          "sha256": "83014b57788a4d6cfe4cb82fe224d81ee5e9ac6d6e84f7ac67097d06828cb7fe"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md",
+          "size": 10732,
+          "sha256": "62c4a2e3d479e1e41fbeb34d7dda7d477c742bf172fd67567ea1af53ee5b71f5"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/废话文学回复指南：轻松应对各类场景.md",
+          "size": 7602,
+          "sha256": "e3bffac19601217721aa2dec00c725a7b49240d71d95136c4e3ce6756d884b2d"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/托人办事的高效话术指南.md",
+          "size": 7540,
+          "sha256": "dc07cde003b5a9b0993d27086fa1bcada85d1ff689a977a60af20c5d96523191"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+          "size": 13162,
+          "sha256": "b373c5ce25a3759ffc80830bf7b4cd877a0dca01320fcaedfd54e364b17db67a"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/提高气场：从内到外的力量感塑造指南.md",
+          "size": 9708,
+          "sha256": "cd3121d022a6fde3876725a29e66f5f7ada0f68e4d02177a4eb625c2c265fa21"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/有效拓展人脉：从建立到维护的实用指南.md",
+          "size": 11114,
+          "sha256": "3089417510bc969716cb9acf047514e2a2ed3929306ffc2572eef90d19cbd702"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/聊天化被动为主动：引导互动的实用指南.md",
+          "size": 12283,
+          "sha256": "bf18a460fc97ac45d14abeaf6a84f92b7c8f9afaaee914f30bb1fd162f96a585"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+          "size": 7055,
+          "sha256": "9e5ed2c2cdef61de8ca62d8d04f4e4c2fb23854d31d8bba01afc136d30f228ed"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/获得领导青睐：从价值匹配到信任建立的实用指南.md",
+          "size": 9328,
+          "sha256": "0eacd563a3531401a6361c52878c74bb2a1473e9c68dc6e603fa721ed9840118"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/被孤立如何破局：从自我调适到建立连接的实用指南.md",
+          "size": 9687,
+          "sha256": "573bce0c441fb605c255073b8c50d5e6f21106e6f1015742c0ce6544d7617365"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/长期记忆与关系档案.md",
+          "size": 5606,
+          "sha256": "e13141a4700e3c9788ba6a2bb68abf59b80416de418549a32a4428de78435bf2"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/references/practical/高情商拒绝他人：体面护边界的实用指南.md",
+          "size": 13089,
+          "sha256": "d34c76a00cd07d8337065f327b154483882b7d1787297aa52fe791aab300872b"
+        },
+        {
+          "path": "QQ-agent-local/skills/goutoujunshi/skill.json",
+          "size": 3109,
+          "sha256": "fef5a21e0d21507014d11ec4c9e690f57e9f42c6eac5a7408bbe785ca52f22a2"
+        },
+        {
+          "path": "QQ-agent-local/skills/hot-trends/index.js",
+          "size": 19329,
+          "sha256": "9e2eceee78138256175cb4285f8c8fb938d81e5cbbbcd75c634995a74ad5ff81"
+        },
+        {
+          "path": "QQ-agent-local/skills/hot-trends/skill.json",
+          "size": 3253,
+          "sha256": "55be27feb738b4da1000060e044392a7288f08f0da6f45731a57bff329ed41e3"
+        },
+        {
+          "path": "QQ-agent-local/skills/image-ref-hint/README.md",
+          "size": 2431,
+          "sha256": "a4a80ae577bd399b3fb2f569dd222636e0cc556736fb62fd38754bc499b9a91e"
+        },
+        {
+          "path": "QQ-agent-local/skills/image-ref-hint/cache.js",
+          "size": 13773,
+          "sha256": "f06a0964c370798a1c77ed3a90178f09b28fbefebe084b17e1cbf3dc30d8bf79"
+        },
+        {
+          "path": "QQ-agent-local/skills/image-ref-hint/index.js",
+          "size": 39911,
+          "sha256": "ca55cce5546ee09dabd4a23256243bb0c74b634b4fb97b4d2f38e17d279c7da5"
+        },
+        {
+          "path": "QQ-agent-local/skills/image-ref-hint/plugin.json",
+          "size": 2906,
+          "sha256": "77db0f7c55f5869ee3deb651dc081a20533d5c69b1ad11069c0acc122e1c24d6"
+        },
+        {
+          "path": "QQ-agent-local/skills/image-ref-hint/recovery.js",
+          "size": 7206,
+          "sha256": "dc8603fd4964bcea5a17e33033704c865a7dda7bbb7b8223cb72931a7c62fd10"
+        },
+        {
+          "path": "QQ-agent-local/skills/image-search/index.js",
+          "size": 87045,
+          "sha256": "22dbb0727131f94671c5e88459f066b7f975f5d959f4800cafe6db104577df65"
+        },
+        {
+          "path": "QQ-agent-local/skills/image-search/skill.json",
+          "size": 9182,
+          "sha256": "3f3a69b24b688abe764863f54e17ac29df40c4822e211aee04e3ad0933374fc9"
+        },
+        {
+          "path": "QQ-agent-local/skills/kaomoji/index.js",
+          "size": 17441,
+          "sha256": "75ba90196799491e354b7ceb86650f8140d5ad450bd14903338644f42786ea7c"
+        },
+        {
+          "path": "QQ-agent-local/skills/kaomoji/skill.json",
+          "size": 2759,
+          "sha256": "90c529b65ab92a924bfe1cbe84f712a7ee976b5c9c1279ea50edd5f2b959a4f3"
+        },
+        {
+          "path": "QQ-agent-local/skills/knowledge-base/index.js",
+          "size": 27474,
+          "sha256": "6b0c8af121d741de7383bc992365bf77ab48e158ab551c16ba8484b64f89083d"
+        },
+        {
+          "path": "QQ-agent-local/skills/knowledge-base/kb-data.jsonl",
+          "size": 12494367,
+          "sha256": "3cef836bf7e1f995cc44f693c47511db7e1e55b95310059ba6cc5464fd970565"
+        },
+        {
+          "path": "QQ-agent-local/skills/knowledge-base/lib/index-engine.mjs",
+          "size": 21301,
+          "sha256": "3770b29765aa64b03ef831820cfe3f45e2534246e86d186aa0b8fe9d4e9c680f"
+        },
+        {
+          "path": "QQ-agent-local/skills/knowledge-base/skill.json",
+          "size": 5580,
+          "sha256": "5e5eddd1d1130541f0ba3a6c2d91e26155af019a7b5758fbd2d1a6994c91f394"
+        },
+        {
+          "path": "QQ-agent-local/skills/long-image-reader/index.js",
+          "size": 4795,
+          "sha256": "bffb4f640b82122374bb5b04469703c5ad2fbe9260a5a10c9c86d890b855d606"
+        },
+        {
+          "path": "QQ-agent-local/skills/long-image-reader/package.json",
+          "size": 66,
+          "sha256": "44df49a7ea2a0e5a034d6ca1c62f0c4c80a418d359a56972db70e1cf043876bb"
+        },
+        {
+          "path": "QQ-agent-local/skills/long-image-reader/plugin.json",
+          "size": 522,
+          "sha256": "8c9c1fb73ea77628ada1127f471697dc7e4820c5f08c15fcf16806589abebd84"
+        },
+        {
+          "path": "QQ-agent-local/skills/monster-hunter/README.md",
+          "size": 3508,
+          "sha256": "84402a0ad69e314146ffe6f9cb6620bbbb52eaac0555f3ddbe9a362b27d1d1e0"
+        },
+        {
+          "path": "QQ-agent-local/skills/monster-hunter/index.js",
+          "size": 16812,
+          "sha256": "9fe85290c22823cfb09edff4ff4549f568fa854d8450a0b74125c07f3f01c8c3"
+        },
+        {
+          "path": "QQ-agent-local/skills/monster-hunter/skill.json",
+          "size": 3022,
+          "sha256": "e08d6a4f69a5f16f478e909b416c56d069c576d58e572420c2a913f18679e8ce"
+        },
+        {
+          "path": "QQ-agent-local/skills/nintendo-kb/index.js",
+          "size": 12521,
+          "sha256": "dff32fa988d49e124ca969e33f530af74af2e00f474b55719fdb12345a0df1a5"
+        },
+        {
+          "path": "QQ-agent-local/skills/nintendo-kb/kb/nintendo.json",
+          "size": 14891,
+          "sha256": "eacaea917e9b8ebebf7b2a44f7d5dfb6aa2269b3f8bf322a99663c924909e51d"
+        },
+        {
+          "path": "QQ-agent-local/skills/nintendo-kb/skill.json",
+          "size": 2106,
+          "sha256": "53f6a7342c8290fb050e83603f5ff4586d047d9b96b2dae7e8883b0bec07fc70"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/README.md",
+          "size": 7365,
+          "sha256": "076768df82cb90785e31aa4e1de255c7027907354b4bf871aea1f1c79b06cba0"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/character.js",
+          "size": 5222,
+          "sha256": "a5c3f5ad3dbf57665d2dec07e14abb049ae93250407e9be6a4b1808056ad8557"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/index.js",
+          "size": 23476,
+          "sha256": "52c65015accac280ff55fbb2cb928a3201dbbc137a787bca42b1d7554c078df2"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/inject.js",
+          "size": 7215,
+          "sha256": "1fc5601898c9883203ebf29b9044945d4ca3bcbcb0caf19958ada31157ffc910"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/llm.js",
+          "size": 8629,
+          "sha256": "7e477f7717e364e238463b6e8f064b793bed91ad25c04466fc4ab74c407c5930"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/profile.js",
+          "size": 9572,
+          "sha256": "debbdda0ade3f4087ef8910168dea5682dab0f51f7cb88a739a9dd0cde1dbc7e"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/skill.json",
+          "size": 3471,
+          "sha256": "7533b94a3e3b367e61e254ddcf7b67db5169de890040730bad6548840fd00954"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-evolution/store.js",
+          "size": 12147,
+          "sha256": "8de005cda352b245e1c576eed3e8120756d51764e57673804b210bbab6a7fa44"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-grow/index.js",
+          "size": 15363,
+          "sha256": "b6d45eb45c511fa53dc4a39ead36fb7b8b2c42815dfc422fd975ffadce1feba4"
+        },
+        {
+          "path": "QQ-agent-local/skills/persona-grow/skill.json",
+          "size": 3297,
+          "sha256": "ce3094b859eba208d48170196230606fde6e6c9de624603a2ad919458a3cde3b"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/README.md",
+          "size": 11200,
+          "sha256": "5520e81cab508a4f324ae69796fe35ce4642b9459b1169527c93bd837decffde"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/SKILL.md",
+          "size": 12840,
+          "sha256": "f58f08afdd0a155a2710f3c8472aca3252e515c535b2e2c466cece771ddb3b0b"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/index.js",
+          "size": 22456,
+          "sha256": "e88125af277154f228dbadf05b26f92f87d42f58482fa6b464ae19864047bc5f"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/cache.js",
+          "size": 9569,
+          "sha256": "db1dcdbcaef7e09facb3623952757a8942871d847f2018305b9c2bfe1f404292"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/candidates.js",
+          "size": 5225,
+          "sha256": "458af8446cbc5404e66bd0d21ec61abf806065255a1efc9cff4e7347d584d628"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/history.js",
+          "size": 1855,
+          "sha256": "86eef858b8ad8d268599162d74e73e76564b6ea675d36f5bb96872117a7b46ba"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/image.js",
+          "size": 2811,
+          "sha256": "5eaffe640e65200189c990a3671a8c9e0576383650041872a28e9cd88926d375"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/limiter.js",
+          "size": 1431,
+          "sha256": "b591cf15af482ea9bdf8639048f64d32aa24987e96299ebc7b3c5ddd2e155d16"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/local.js",
+          "size": 2307,
+          "sha256": "21710ec80ed9bd16b1faefa4a49cb3ffc56bb6ba832f056e51f8e95f0a583633"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/metadata.js",
+          "size": 1443,
+          "sha256": "a87041e654747ac98ac69bd7e4a6c694d8eb727f6867e3813725f56fe2daa939"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/network.js",
+          "size": 3823,
+          "sha256": "b289f008656a7d42de7694e8a90f6bf1a57f6a4fbcaf2c137cb030230857c86b"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/policy.js",
+          "size": 1958,
+          "sha256": "a2df564edaa6dcf04bfe3bca8381c53c24b96d08a9052888943ac0a0e69a1cd5"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/source.js",
+          "size": 10051,
+          "sha256": "ea9bcad01b45a7c42ef845304b17a2cc298f6fb44b5c85b05ed5d0cfea0a8648"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/lib/text.js",
+          "size": 3176,
+          "sha256": "e29c13e3957939440da82a4d9d96a1ab072ba4202a42d2df215af8bdafa5b95c"
+        },
+        {
+          "path": "QQ-agent-local/skills/reply-meme/skill.json",
+          "size": 5776,
+          "sha256": "f1c8f8f3d2509a80c465a7c458af30dc6b08783dec404c7e204025920103f27b"
+        },
+        {
+          "path": "QQ-agent-local/skills/teqinchu-rank/README.md",
+          "size": 13494,
+          "sha256": "ef558186e59fa06fa6b8c2519fd78690007617f83058263b162be28c25f21d14"
+        },
+        {
+          "path": "QQ-agent-local/skills/teqinchu-rank/index.js",
+          "size": 69212,
+          "sha256": "2b1e639ff0cc93c41bec63524ddd19021acaa5b6f7a91bf806ed02b049721f8f"
+        },
+        {
+          "path": "QQ-agent-local/skills/teqinchu-rank/skill.json",
+          "size": 10503,
+          "sha256": "ebd2b0d4729b7b6233bdd15a68d17ea1eeb042c6a2e28cd306ecff7e57a23c98"
+        },
+        {
+          "path": "QQ-agent-local/skills/trendy-memes/index.js",
+          "size": 13939,
+          "sha256": "a14531b914b2c6b1d4cd62ced4bd18c4dbe09563a5e426cb2611ff2da0da9e45"
+        },
+        {
+          "path": "QQ-agent-local/skills/trendy-memes/kb/memes.json",
+          "size": 14082,
+          "sha256": "ed98085b5fd22e4959628359e91deb48d2bb752f24a01cd706dcc47013eb5227"
+        },
+        {
+          "path": "QQ-agent-local/skills/trendy-memes/skill.json",
+          "size": 3725,
+          "sha256": "feefaae48eb8c8fdc42c59b07b77d2c9680cc6df9a7ac4c613d619fa54da3fdd"
+        },
+        {
+          "path": "QQ-agent-local/src/app.js",
+          "size": 89915,
+          "sha256": "c96ca7d440395728efb65c616bafe342ecb89da34c52fbf4ea1fdbf6d620b21c"
+        },
+        {
+          "path": "QQ-agent-local/src/community.js",
+          "size": 8946,
+          "sha256": "292c26e3d04bb5535aecce7e0ee376bd5900db0fed86d1870bd1761d7bc82b33"
+        },
+        {
+          "path": "QQ-agent-local/src/config.js",
+          "size": 43375,
+          "sha256": "b0cea790d753364f52b93f23b25eacd4afd4abd007d0991637f6633e33d64612"
+        },
+        {
+          "path": "QQ-agent-local/src/gif-to-video.js",
+          "size": 12128,
+          "sha256": "59a82e54e67b1da11e8d5350ece3f7fada6d438a3e5a5b778d87942f25559739"
+        },
+        {
+          "path": "QQ-agent-local/src/holidays.js",
+          "size": 7618,
+          "sha256": "7e06e2aeb0157fd57c5d8cc2ef174078f67cc60df708a5d1ca319886d4dad83d"
+        },
+        {
+          "path": "QQ-agent-local/src/image-compress.js",
+          "size": 6125,
+          "sha256": "316adb3fc94a708ab2987eea904ca0910522ef7e8693af9a966e4320bb7b8051"
+        },
+        {
+          "path": "QQ-agent-local/src/image-type.js",
+          "size": 2334,
+          "sha256": "901332e3968a0652d2e2943f8cc44430d2188784f28a1824ac272918860ea520"
+        },
+        {
+          "path": "QQ-agent-local/src/instance-lock.js",
+          "size": 4462,
+          "sha256": "829aee2fe7c260a2ba6dc80f4855c2812034b4a957cc82264cbae22488b5bb13"
+        },
+        {
+          "path": "QQ-agent-local/src/llm.js",
+          "size": 32577,
+          "sha256": "267b88a4594ff8502667229ce17540b28d00459f2d47609568c636931bc0a623"
+        },
+        {
+          "path": "QQ-agent-local/src/logger.js",
+          "size": 7022,
+          "sha256": "de7adcff152169e0a0cd8b772c607506a278953c8170dd7d51c553c2e1674a80"
+        },
+        {
+          "path": "QQ-agent-local/src/market.js",
+          "size": 13976,
+          "sha256": "9baf6af14ddde54275098f06d56916bc2f197c857bdb07e2bbf777250fa5ea04"
+        },
+        {
+          "path": "QQ-agent-local/src/md-to-plain.js",
+          "size": 2367,
+          "sha256": "01587cdff6a298d328c7564fbfe1b0e4fea7436e8ffe9ab957f2c1c83d662f50"
+        },
+        {
+          "path": "QQ-agent-local/src/media-links.js",
+          "size": 5000,
+          "sha256": "f617989acb14d7f2b9ca4f25120b9a1d6d70ac2e936be9cd4ce7826226d53088"
+        },
+        {
+          "path": "QQ-agent-local/src/memory.js",
+          "size": 22153,
+          "sha256": "49ceffaff26c52346bf37d48990dc159e1cb26daab9c36706708df1c0df5308b"
+        },
+        {
+          "path": "QQ-agent-local/src/model-prices.js",
+          "size": 42054,
+          "sha256": "1bf21307ab11663e84012b5b3ab011f05a6af75379cf9867d4d39f6810188262"
+        },
+        {
+          "path": "QQ-agent-local/src/model-vision-docs.js",
+          "size": 17631,
+          "sha256": "f974f5a08b1fc9f2155e0fcbed67fb736aac6c8cfe079edac76933cd08d92fd1"
+        },
+        {
+          "path": "QQ-agent-local/src/onebot.js",
+          "size": 25819,
+          "sha256": "5e6e4b7f26585dc476de2d2f19476674ae30e4456b0a690460b39588a4f61d80"
+        },
+        {
+          "path": "QQ-agent-local/src/orchestrator.js",
+          "size": 105262,
+          "sha256": "3228f8747011d8abdc7333fe30e348dd27f5bea6fd4e408ce63f9ab0482a1085"
+        },
+        {
+          "path": "QQ-agent-local/src/personas.js",
+          "size": 16531,
+          "sha256": "1182e7e2f6d77e0aca43d7c50e56c890bf1bd01071d213cc0b1673b7bc659967"
+        },
+        {
+          "path": "QQ-agent-local/src/plugin-loader.js",
+          "size": 30859,
+          "sha256": "9c26547137c276f3f065eed48b3d5bd73dff293eaff902e6494b431d08f49d1c"
+        },
+        {
+          "path": "QQ-agent-local/src/price-feed.js",
+          "size": 8786,
+          "sha256": "9f64144834e46b10a17595e067478c2582b710b24ac572194c0e0f022557125c"
+        },
+        {
+          "path": "QQ-agent-local/src/profile.js",
+          "size": 769,
+          "sha256": "e40542d1e34f8526e8216571493468cdfa3193581e1de0228eda30656a82a7d0"
+        },
+        {
+          "path": "QQ-agent-local/src/prompt.js",
+          "size": 55186,
+          "sha256": "5f4096e73f8dbc54fcc5e309c54ad7115d0703608e7bbefc282ef7835deef21f"
+        },
+        {
+          "path": "QQ-agent-local/src/providers.js",
+          "size": 18085,
+          "sha256": "6a54ca6301b37e7900852992c3583048aba91d4a4f6d30a727bb6f2444d580ae"
+        },
+        {
+          "path": "QQ-agent-local/src/quiet-hours.js",
+          "size": 964,
+          "sha256": "0db71d4157fe1cd5c2d1b145cb8b47b938f6efa13484ede285435b25cdbb467c"
+        },
+        {
+          "path": "QQ-agent-local/src/reminders.js",
+          "size": 2938,
+          "sha256": "d82ff03c36f9bf87ac91382ee8577c59afa552362d9677e011df50ab954e03a6"
+        },
+        {
+          "path": "QQ-agent-local/src/reply-rescue.js",
+          "size": 5538,
+          "sha256": "be01218a3f030b3c2327dfc1d370fb7b26e0060b5f95dd687778773709fb6b91"
+        },
+        {
+          "path": "QQ-agent-local/src/routes.js",
+          "size": 72938,
+          "sha256": "c7438c60ba41d001956b39089b66e1bd1dd3bfb4a33ce03a67284821b9ce71c1"
+        },
+        {
+          "path": "QQ-agent-local/src/safe-fetch.js",
+          "size": 23917,
+          "sha256": "f3f7977e0193b1719813006f002dbc57b70620885167c8925e62faa72cb9127c"
+        },
+        {
+          "path": "QQ-agent-local/src/sender.js",
+          "size": 21646,
+          "sha256": "170532729da1cd99aab2b724a9e2343b3b0a4694a5bc01cf868d4d522129fa6c"
+        },
+        {
+          "path": "QQ-agent-local/src/server.js",
+          "size": 771,
+          "sha256": "6ad9f289a7cb6eefa7f981100cb2b4c8fbb8f99e91376f016d4e951032e2012b"
+        },
+        {
+          "path": "QQ-agent-local/src/sessions.js",
+          "size": 24229,
+          "sha256": "e1a2590b6ccbb16ff6e3bc2a4a162d98ce3b969b6e41f3029ec7d534e906a5d1"
+        },
+        {
+          "path": "QQ-agent-local/src/skills/capabilities.js",
+          "size": 2664,
+          "sha256": "b20f4e82f048a7685719a3de39fb5cac24dd0fdfd556267308fac5fa4ea5d5dd"
+        },
+        {
+          "path": "QQ-agent-local/src/skills/config.js",
+          "size": 2204,
+          "sha256": "e0c02af7b15e8c873b703d3a8a7ddb5576eb821dc9bc3171126c808df3accf3d"
+        },
+        {
+          "path": "QQ-agent-local/src/skills/errors.js",
+          "size": 1647,
+          "sha256": "886b629edc99226304151d23c8a2e124740eede90bc6405401aea29a6215a4cf"
+        },
+        {
+          "path": "QQ-agent-local/src/skills/manager.js",
+          "size": 24213,
+          "sha256": "9581bb2277a1300561e61d56e15211e92c701df834444e4d2bf5f9eaa46905aa"
+        },
+        {
+          "path": "QQ-agent-local/src/skills/manifest.js",
+          "size": 6281,
+          "sha256": "71f9787f99e025ca2dc8c58ee3d1bfa74cbf545647fb111f31d897e314791f68"
+        },
+        {
+          "path": "QQ-agent-local/src/skills/registry.js",
+          "size": 1650,
+          "sha256": "5e6d98dbfb99ebeaa658769bf16a1fa1be396c50d2b8aaa8a444a17ac0ee4819"
+        },
+        {
+          "path": "QQ-agent-local/src/sticker-manager.js",
+          "size": 12275,
+          "sha256": "0523b167c6ea565108a5e95aecff495d9a35b61e48b1924b8cd479784255be6b"
+        },
+        {
+          "path": "QQ-agent-local/src/stickers.js",
+          "size": 11991,
+          "sha256": "d0e436a301d838afe7476a5335758b3fd7ac8b27d68250942ff722191fa2f73c"
+        },
+        {
+          "path": "QQ-agent-local/src/store.js",
+          "size": 13906,
+          "sha256": "b8ed69b1a62dcf7c01b365ff7a56757f90ddfd8a4c8de56262d462374de03558"
+        },
+        {
+          "path": "QQ-agent-local/src/telemetry.js",
+          "size": 4909,
+          "sha256": "478867d8497a997b8c434dbb0f54ed69be996319fe0de51503f77aeb538953f9"
+        },
+        {
+          "path": "QQ-agent-local/src/thinking.js",
+          "size": 14590,
+          "sha256": "e0b57cb54466d328f1f437fd6193db9641cb1c42eee0dda2eb53588ec4778377"
+        },
+        {
+          "path": "QQ-agent-local/src/tier-slider.js",
+          "size": 2441,
+          "sha256": "15c8633b2fbd22eadabd58df94664be67b55547025b0b895c87efd89e0fd0e4e"
+        },
+        {
+          "path": "QQ-agent-local/src/tool-registry.js",
+          "size": 10688,
+          "sha256": "be78379fc75c78127105dbb5c30c6db6cc6fe797dd4c44deee12adb39a9dee38"
+        },
+        {
+          "path": "QQ-agent-local/src/tools.js",
+          "size": 60496,
+          "sha256": "34cdac69e7506b9e949468b793b791759045b69979a0d6112750a38cb5f9b479"
+        },
+        {
+          "path": "QQ-agent-local/src/util.js",
+          "size": 9269,
+          "sha256": "8189b21b76bc5daefc066ab25146acfb59e058885a638a5eca6a9941de09a9d7"
+        },
+        {
+          "path": "QQ-agent-local/src/video-reader.js",
+          "size": 17023,
+          "sha256": "e140494edcea31f2b96613c3d2f1aa714b3eca004a3cf11d09857d39825b1eef"
+        },
+        {
+          "path": "QQ-agent-local/src/vision-scan.js",
+          "size": 7714,
+          "sha256": "25d61ac88241190e73bcaa25598a513533aeabe220051abfe325e8a3f346e974"
+        },
+        {
+          "path": "QQ-agent-local/src/web-search.js",
+          "size": 29439,
+          "sha256": "8341d4d3f6342a697558df658e26023e62193c4cd9e8683910a4e0024202a175"
+        },
+        {
+          "path": "QQ-agent-local/src/zip-install.js",
+          "size": 5726,
+          "sha256": "9addce365b37179f8e940c991578ff945423014edb11694d3ba3d5c52590382e"
+        },
+        {
+          "path": "QQ-agent-local/test/_harness.mjs",
+          "size": 18445,
+          "sha256": "0aa7362469115a0c0bbec1370800a157da0daddb1b85df60354d1e357e1631ea"
+        },
+        {
+          "path": "QQ-agent-local/test/_ui-load.mjs",
+          "size": 2060,
+          "sha256": "f57e75ba49f79647195e35e00ed17d710924d5dcc51fb04aa2824edea047e5bf"
+        },
+        {
+          "path": "QQ-agent-local/test/community-test.mjs",
+          "size": 6777,
+          "sha256": "027fbf8b73d444f8ca22b7041cf214e753b9a1fdc063530b2926fe9ef0e1a165"
+        },
+        {
+          "path": "QQ-agent-local/test/conversation-persona-test.mjs",
+          "size": 3867,
+          "sha256": "274f60ff32a905d4f7daec757111e62ef9aac401e93d1982674eb8f9f4bd48c0"
+        },
+        {
+          "path": "QQ-agent-local/test/coverage-e2e.mjs",
+          "size": 40844,
+          "sha256": "5e6bc8ed06f3ce8edc61789ac7e8d40791c66df2f0ebe374cc3b9cbe1b4a6fb8"
+        },
+        {
+          "path": "QQ-agent-local/test/coverage-http.mjs",
+          "size": 54453,
+          "sha256": "b0cadd4e2ccac103751eb0557b7e2274d6ee2542386adb809d2363e2fd726f5b"
+        },
+        {
+          "path": "QQ-agent-local/test/coverage-offline.mjs",
+          "size": 64477,
+          "sha256": "9afd436c5bb2ef7bb1d329c7b564e45f30169d9135137c7052d70288a84a6561"
+        },
+        {
+          "path": "QQ-agent-local/test/coverage-ui.mjs",
+          "size": 16949,
+          "sha256": "faff109655d62f3ef998506d8b469aa724a533ca28ed4273794936250756fc36"
+        },
+        {
+          "path": "QQ-agent-local/test/coverage-wiring.mjs",
+          "size": 16362,
+          "sha256": "1528c4a8d14124679c5b8678d3e1351c7f303015dd937fca3d455220d092d1f7"
+        },
+        {
+          "path": "QQ-agent-local/test/delayed-message-wake-test.mjs",
+          "size": 2426,
+          "sha256": "6593c6c217595fe1fb76bb3035bfcdba5a75becef71d2fa3b945d39976e8a099"
+        },
+        {
+          "path": "QQ-agent-local/test/external-onebot-boundary-test.mjs",
+          "size": 3825,
+          "sha256": "24b63dadcdc6a95c921c553f780a1c3418005911406c3ab081eea7a87625d70d"
+        },
+        {
+          "path": "QQ-agent-local/test/judge-cases.json",
+          "size": 3707,
+          "sha256": "f162f43c9d0bb9d4ecde97a98678f8e604b9803c1ad4dc9db6619b0c49140352"
+        },
+        {
+          "path": "QQ-agent-local/test/market-zip-test.mjs",
+          "size": 6942,
+          "sha256": "d3f9fb122db1184ac868232a3742662c2906ed577269101b8d2d1ed5610e33ca"
+        },
+        {
+          "path": "QQ-agent-local/test/message-id-test.mjs",
+          "size": 2149,
+          "sha256": "d46820aff3b5e832c6d1005e70767f00a6c70abda287510599abb443a6e9efac"
+        },
+        {
+          "path": "QQ-agent-local/test/model-search-response-test.mjs",
+          "size": 2332,
+          "sha256": "ca90d6169f30e465a3f3a10ea26285ce90badf13616e8bc15573aa11bdfad453"
+        },
+        {
+          "path": "QQ-agent-local/test/onebot-whitelist-test.mjs",
+          "size": 9869,
+          "sha256": "e843e78cff47642a9b53e92f96ddcf363b0a74bb3f35f683617cce2c06c109a2"
+        },
+        {
+          "path": "QQ-agent-local/test/prompt-anchor-test.mjs",
+          "size": 12043,
+          "sha256": "9cc978f51c1062fa825de4f19892c1a29ffceaf4a73f75cf93b4f6a4aedc85b3"
+        },
+        {
+          "path": "QQ-agent-local/test/quiet-hours-test.mjs",
+          "size": 4314,
+          "sha256": "9db5f8a81f87153c3d280d604b44a9b38c36b2ed0f3e7d46833fb5a90500179a"
+        },
+        {
+          "path": "QQ-agent-local/test/render-test.mjs",
+          "size": 42386,
+          "sha256": "67e1a4f369c9f76ee8eb035136eef91ea6cd791eae64d7d734c2ebd37f214c4c"
+        },
+        {
+          "path": "QQ-agent-local/test/safe-fetch-file-test.mjs",
+          "size": 6986,
+          "sha256": "c91fa95fde734059f99ab16c67b3e455f3614157562adec5fb357691364de826"
+        },
+        {
+          "path": "QQ-agent-local/test/safe-fetch-proxy-test.mjs",
+          "size": 4272,
+          "sha256": "ce6cc12663609a9eb02fe6b8cf6e01a3687cfcacf7b8fa07ba3292f74e6f4a3b"
+        },
+        {
+          "path": "QQ-agent-local/test/scroll-test.mjs",
+          "size": 12946,
+          "sha256": "9e8e06630e7501f8940eb0399653ec8b9e787923568c06350a0c3c7712b391dd"
+        },
+        {
+          "path": "QQ-agent-local/test/selftest.mjs",
+          "size": 83516,
+          "sha256": "7396a6a59657fd229a67d275a74e2fed109b826687668cb828c855fdd1401e76"
+        },
+        {
+          "path": "QQ-agent-local/test/sender-file-uri-test.mjs",
+          "size": 4482,
+          "sha256": "7c05e3f0e3f556051b74f9cb071d189ae1d88d123e63396f075ff646dba17b39"
+        },
+        {
+          "path": "QQ-agent-local/test/sender-send-path-test.mjs",
+          "size": 8340,
+          "sha256": "35b291b4ec68399e7382919668441606adc840903100edd5085d6fd6302ddedc"
+        },
+        {
+          "path": "QQ-agent-local/test/setup-download.mjs",
+          "size": 10524,
+          "sha256": "22718f45d803e46b6d26f740b24fe2ae083d20883c401c74f0dbe776c6e0a879"
+        },
+        {
+          "path": "QQ-agent-local/test/skill-modal-ui.mjs",
+          "size": 9706,
+          "sha256": "fb4d1c86a4cbc1934bf035fd3fe1ca348fedb9067a376f5fe249b780a320c1d3"
+        },
+        {
+          "path": "QQ-agent-local/test/skill-test.mjs",
+          "size": 36366,
+          "sha256": "a4448bcbe86570f9775ad89d5d31549f63ba4c56aa767d32a68a03b548e405cd"
+        },
+        {
+          "path": "QQ-agent-local/test/sticker-collect-test.mjs",
+          "size": 8349,
+          "sha256": "7d3df9abd61dd0b2ae02a626210d8dcb3675cb0d1cf13507e32f547c4b4cb46c"
+        },
+        {
+          "path": "QQ-agent-local/test/sticker-context.mjs",
+          "size": 3901,
+          "sha256": "ef15b93f09f25ef1b5a16622fd02d4d40f96f8f9478e1e03f8152e2b43c635c4"
+        },
+        {
+          "path": "QQ-agent-local/test/test-prompt.mjs",
+          "size": 14985,
+          "sha256": "bb54d9ff9a5ed1c21137bc93ae00dbdb9559a9d2eb175632a38a9a757390d0f6"
+        },
+        {
+          "path": "QQ-agent-local/test/tools-skill-audit.mjs",
+          "size": 32905,
+          "sha256": "ee9944502584351c679e64362dbea695aa07019d04a0b91aab0a5bf96954a6a5"
+        },
+        {
+          "path": "QQ-agent-local/test/usage-daily-test.mjs",
+          "size": 7232,
+          "sha256": "6e43e83aca04a9658925e654646901b1b3d7cfcf444d58641114439d92dfe90a"
+        },
+        {
+          "path": "QQ-agent-local/test/usage-e2e.mjs",
+          "size": 13149,
+          "sha256": "095541caa167aee4db266932d5cc07da967dae8596173673caf7f24638daa473"
+        },
+        {
+          "path": "QQ-agent-local/test/vendor-mirror-test.mjs",
+          "size": 5277,
+          "sha256": "ece27fd3ea76c173552f0af42aea5330db1f28406234632f512689ca1e088687"
+        },
+        {
+          "path": "QQ-agent-local/test/wake-semantics-test.mjs",
+          "size": 11880,
+          "sha256": "0ddddc82c02ee2cf6356a565b54f84a8fcf6b6c6ba0faee14be584f63a457d91"
+        },
+        {
+          "path": "QQ-agent-local/test/web-search-parse.mjs",
+          "size": 3208,
+          "sha256": "f641a7d1c773e730524c6d0d0ceb80b488ccc6b657a90c4f04249492e16dc6a2"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/00-core.js",
+          "size": 37738,
+          "sha256": "619c91cb1bf5387983d4934f241eab83b26b316caf160d04821aebb269ca171c"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/01-boot.js",
+          "size": 5354,
+          "sha256": "97d8295aad0aa4f61268c8768eff11f9646cc3e3d81054cb7f16d6fac3cfe74d"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/02-sse-sessions.js",
+          "size": 33067,
+          "sha256": "7cc47f3e66ae70342a8b796d78f9e98cd448f2ef64a6bf069b210bda5746bbbd"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/04-archive-usage.js",
+          "size": 41840,
+          "sha256": "9f2f68af82d062e6ebc8d1fb43c5ac737df5a837a5fd4624bd754a32a3e22a37"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/05-memory-settings.js",
+          "size": 39076,
+          "sha256": "1ff8ce4d390c725ca09b77acb4c6761a3a6e4d0c36de5f2029ff57513658e4b9"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/06-settings-render.js",
+          "size": 96623,
+          "sha256": "5391660d65ac37ba78e3055aaaddd79c2ce05fb323e5899f87e0aa51550e40d3"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/07-settings-events.js",
+          "size": 48493,
+          "sha256": "6ed8df87df8dcc0a6fab50fce5eef8d77e6968950a307d3337c239d0cb715d12"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/08-modals.js",
+          "size": 79304,
+          "sha256": "7acb9d0cc2bbad4049e788c8996a4de3dc0c2e05f99738ed04fd161dbf2aeda4"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/09-community.js",
+          "size": 61630,
+          "sha256": "db16c27cfd989000151efb18fc0b7abe6f342c95f69dd380dbaab25c2345c0f4"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/10-feedback.js",
+          "size": 45118,
+          "sha256": "71d2cfa11c1c25d00b6021cf814f1684f56307f47debc5251d18d21306a6dd41"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/11-init.js",
+          "size": 2454,
+          "sha256": "792837a17dd81ffc68206697058dc110b3c6614ca70e514901475d27265683e8"
+        },
+        {
+          "path": "QQ-agent-local/ui/app/12-concept2-ui.js",
+          "size": 16472,
+          "sha256": "4b4680c9fa62534f9dae33ff76def34525e3a95a86709b9700936e8a7cb72be7"
+        },
+        {
+          "path": "QQ-agent-local/ui/app.js",
+          "size": 1187,
+          "sha256": "47a6d8c8be6ca53cbe349fcc7f7406804853a0549ef2dceba4f06c2f0e26eda8"
+        },
+        {
+          "path": "QQ-agent-local/ui/captcha-sw.js",
+          "size": 2612,
+          "sha256": "00ddd73eb3af72e7e3667bce26778b90378d811c68defaa7ed0b09d20aa375cb"
+        },
+        {
+          "path": "QQ-agent-local/ui/group-qrcode.jpg",
+          "size": 684226,
+          "sha256": "2ef7ce99d92573b45a465d12588a0651bca9a17402ee50eb5f07bb1c126b2145"
+        },
+        {
+          "path": "QQ-agent-local/ui/index.html",
+          "size": 9561,
+          "sha256": "6cb3febe6775cbf1680c1768f73d073a36760f06d920cc1641da14e81a713773"
+        },
+        {
+          "path": "QQ-agent-local/ui/landing.html",
+          "size": 21407,
+          "sha256": "86fc0fc411da76ab96ca9960f44c4a0d51f43913809690720d5334d22ba90c5f"
+        },
+        {
+          "path": "QQ-agent-local/ui/persona-plaza/index.html",
+          "size": 10005,
+          "sha256": "6b691e9bb5ca52497cc92f343b5341166117f57667e41952c0eecc139c574167"
+        },
+        {
+          "path": "QQ-agent-local/ui/plugin-market/index.html",
+          "size": 16786,
+          "sha256": "5bc925281460cfe9132017e646670af249d61ffcd02a55bc54543657f943ba5f"
+        },
+        {
+          "path": "QQ-agent-local/ui/skill-market/index.html",
+          "size": 17330,
+          "sha256": "3b71e7350a2e649c2a42790b1e3699659943bdf46cc85aeec7dc58d3c89e50b7"
+        },
+        {
+          "path": "QQ-agent-local/ui/style.css",
+          "size": 77693,
+          "sha256": "5ed077e9aa688cc9600010e3fab670fff40e98f40d773edb4da08256189cdada"
+        },
+        {
+          "path": "QQ-agent-local/ui/vendor/price-match.js",
+          "size": 1542,
+          "sha256": "2e9af654ce8e32d1f8aff65a0a7cfeb19104fdd6df6066333123dffe010d9588"
+        },
+        {
+          "path": "QQ-agent-local/ui/vendor/tier-slider.js",
+          "size": 2495,
+          "sha256": "96e0319da820ab5843d577af2b0c5cee0f2bf1001e98af2b7b974893e4f4df14"
+        },
+        {
+          "path": "QQ-agent-local/启动QQ机器人.bat",
+          "size": 616,
+          "sha256": "62895d684808640217899969cf2defb12667f2e31976886bed8daa41b1505434"
+        },
+        {
+          "path": "qq-agent-runtime/Dockerfile",
+          "size": 347,
+          "sha256": "64a82d2c4c3e3156adda5df3897d184b13636caeb2fc03dd9dda4cd7b9b2d30e"
+        },
+        {
+          "path": "qq-agent-runtime/start.sh",
+          "size": 146,
+          "sha256": "5ce65696fa8bd9103323a58885be38f8a9c0e8d1828f7589c69f2d28b123622c"
+        }
+      ]
+    }
+  ]
+}

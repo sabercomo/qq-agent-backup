@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-31T00:15:17.412576+08:00",
+  "links": [
+    {
+      "category": "官方旧仓库",
+      "url": "https://github.com/K0nd1us/QQ-agent",
+      "status": "GitHub 读取返回 404；本机完整 0.4 工作目录已备份"
+    },
+    {
+      "category": "GitHub 历史副本",
+      "url": "https://github.com/mingmieyan/QQ-agent-dev",
+      "status": "仓库与 README 可读取；未与本机版本逐文件比较"
+    },
+    {
+      "category": "GitHub 历史副本",
+      "url": "https://github.com/lyyde599/qq-agent",
+      "status": "README 可读取；旧版桌面端实现"
+    },
+    {
+      "category": "GitHub 二次开发",
+      "url": "https://github.com/Shalom0919/QQ-agent",
+      "status": "仓库与 README 可读取；同学协作版，非官方发行版"
+    },
+    {
+      "category": "夸克手机端资料",
+      "url": "https://pan.quark.cn/s/0ca8247c7bb5",
+      "status": "提取码 RE88；13 个文件目录可查看，原包未下载；不能确认是上次那条链接"
+    },
+    {
+      "category": "夸克来源教程",
+      "url": "https://www.bilibili.com/video/BV1GqHM6iEaW/",
+      "status": "大肥鱼接入QQ手机端教程；2026-10-24 发布；简介含上述链接与提取码"
+    },
+    {
+      "category": "百度旧分享",
+      "url": null,
+      "status": "尚未找回；现存项目文本、相关会话链接和相关浏览记录中没有获得可核验地址"
+    },
+    {
+      "category": "官网",
+      "url": "https://kondius.cn/qq-agent/",
+      "status": "显示“站点已暂停访问”"
+    }
+  ],
+  "quark_files": [
+    "部署文档.md",
+    "deploy.env",
+    "libslhook.so",
+    "libsnowluma_linux_resident_dispatch.so",
+    "patch_snowluma.py",
+    "README.txt",
+    "手机端QQ机器人-部署文档-v2.md",
+    "slhook-diag.sh",
+    "slhook.c",
+    "start-all.sh",
+    "status.sh",
+    "stop-all.sh",
+    "versions.sh"
+  ]
+}

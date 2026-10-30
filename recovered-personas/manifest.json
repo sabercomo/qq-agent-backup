@@ -1,0 +1,169 @@
+{
+  "retrievedAt": "2026-10-29T23:52:14.102252+00:00",
+  "catalogCount": 346,
+  "results": [
+    {
+      "id": "persona-b70ef85864",
+      "title": "牧濑红莉栖",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-b70ef85864/prompt",
+      "listedPromptLength": 3448,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/牧濑红莉栖.md",
+      "characters": 3448,
+      "utf16Units": 3448,
+      "bytes": 9601,
+      "sha256": "58e928bf11ff232511a64f2c64dda05f15bc0292a9314bab9c071db65a8632dc"
+    },
+    {
+      "id": "persona-abc62a0742",
+      "title": "小鲸鱼-傲8娇2 · 嘴硬心软",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-abc62a0742/prompt",
+      "listedPromptLength": 8486,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/小鲸鱼-傲8娇2 · 嘴硬心软.md",
+      "characters": 8486,
+      "utf16Units": 8486,
+      "bytes": 22590,
+      "sha256": "0ebccd52784f7d1d4f038856a0dd3cdd1838c65a5cc219bd51f16e78639b3567"
+    },
+    {
+      "id": "persona-febbf5fc13",
+      "title": "小鲸鱼（傲2娇8 · 呆萌修订版）",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-febbf5fc13/prompt",
+      "listedPromptLength": 7980,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/小鲸鱼（傲2娇8 · 呆萌修订版）.md",
+      "characters": 7980,
+      "utf16Units": 7980,
+      "bytes": 20743,
+      "sha256": "c54896304a4724279999d7bde9b48b1badb4b7f4d3acdde4ce60b3e4e87e3bb5"
+    },
+    {
+      "id": "persona-c75366ac70",
+      "title": "小鲸鱼-温柔2.0",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-c75366ac70/prompt",
+      "listedPromptLength": 17572,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/小鲸鱼-温柔2.0.md",
+      "characters": 17572,
+      "utf16Units": 17572,
+      "bytes": 43469,
+      "sha256": "6242a32be79bda5dab19462b87a5c16a6a363fa3f4cacb5cadc9be669b7ae524"
+    },
+    {
+      "id": "persona-4f9406cc1b",
+      "title": "毒舌猫娘",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-4f9406cc1b/prompt",
+      "listedPromptLength": 1429,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/毒舌猫娘.md",
+      "characters": 1429,
+      "utf16Units": 1429,
+      "bytes": 3828,
+      "sha256": "80590146e22eb4e118667c2449c861c597389c37e4a31131e5dd003dfaa1c289"
+    },
+    {
+      "id": "persona-dc85f7d186",
+      "title": "对主人温柔对其他人嘴毒的鲸鱼",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-dc85f7d186/prompt",
+      "listedPromptLength": 2098,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/对主人温柔对其他人嘴毒的鲸鱼.md",
+      "characters": 2098,
+      "utf16Units": 2099,
+      "bytes": 5591,
+      "sha256": "a8798b31f4302e7f4f293e47eefe9bb25494ddaa1d98ebaf4f97f0891a9cf267"
+    },
+    {
+      "id": "persona-588934424a",
+      "title": "嘴臭鲸鱼",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-588934424a/prompt",
+      "listedPromptLength": 9203,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/嘴臭鲸鱼.md",
+      "characters": 9203,
+      "utf16Units": 9203,
+      "bytes": 24129,
+      "sha256": "7d19ff99ab670e51915f1fc02f39b6188a44a7e8f900254eef720fe7e4965c6c"
+    },
+    {
+      "id": "persona-a60e98bc50",
+      "title": "傲娇鱼",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-a60e98bc50/prompt",
+      "listedPromptLength": 2057,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/傲娇鱼.md",
+      "characters": 2057,
+      "utf16Units": 2057,
+      "bytes": 5505,
+      "sha256": "89c88860fef9450255f4cdea0f47935ddb4b422de805f03f7f6a63e9445d3441"
+    },
+    {
+      "id": "persona-49bc185381",
+      "title": "群傲娇鲸鱼",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-49bc185381/prompt",
+      "listedPromptLength": 4126,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/群傲娇鲸鱼.md",
+      "characters": 4126,
+      "utf16Units": 4126,
+      "bytes": 10923,
+      "sha256": "1036d5291ecc3b730e945ea93b8624f989501206f9b54fdc8e044fb4badf2112"
+    },
+    {
+      "id": "persona-2e5c7c4990",
+      "title": "25岁真人知性姐姐",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-2e5c7c4990/prompt",
+      "listedPromptLength": 5786,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/25岁真人知性姐姐.md",
+      "characters": 5786,
+      "utf16Units": 5786,
+      "bytes": 16222,
+      "sha256": "a0b815c84bf7175a7007799aa82b8fc0de2157d49b13279c4b02a2ebcce64279"
+    },
+    {
+      "id": "persona-0f8b552250",
+      "title": "小鲸鱼（ 娇傲呆腹黑 · 雌小鬼 · 可玩语C · 内核温柔）",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-0f8b552250/prompt",
+      "listedPromptLength": 5311,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/小鲸鱼（ 娇傲呆腹黑 · 雌小鬼 · 可玩语C · 内核温柔）.md",
+      "characters": 5311,
+      "utf16Units": 5311,
+      "bytes": 13627,
+      "sha256": "179ab04d3eb58af0ae206d4f9da9f81572c4fec7f5d956bb7eac91adeaaabc04"
+    },
+    {
+      "id": "persona-fec0cef7ee",
+      "title": "嘴臭女主（逢人就骂，ban过谨慎使用）",
+      "sourceUrl": "https://www.kondius.cn/api/community/personas/persona-fec0cef7ee/prompt",
+      "listedPromptLength": 63,
+      "status": "recovered",
+      "file": "recovered-personas/prompts/嘴臭女主（逢人就骂，ban过谨慎使用）.md",
+      "characters": 63,
+      "utf16Units": 63,
+      "bytes": 187,
+      "sha256": "606d9ad388fd5f98287f37b86d7903424de51e487c90007d4f170faca830ee67",
+      "additionalDescriptionFile": "recovered-personas/prompts/嘴臭女主-官网简介中的角色设定.md",
+      "additionalDescriptionCharacters": 500,
+      "note": "官网 prompt 字段仅 63 字；主要角色设定位于 description，已单独原样保存。"
+    }
+  ],
+  "exactTitleSearch": {
+    "requested": "傲娇小鲸鱼2.0",
+    "exactTitleFound": false,
+    "checkedCatalogCount": 346,
+    "candidateIds": [
+      "persona-abc62a0742",
+      "persona-febbf5fc13",
+      "persona-c75366ac70"
+    ]
+  },
+  "verification": {
+    "promptFileEqualsApiPrompt": true,
+    "lengthMatchesCatalog": true,
+    "sha256Recorded": true,
+    "robotConfigurationModified": false
+  }
+}
